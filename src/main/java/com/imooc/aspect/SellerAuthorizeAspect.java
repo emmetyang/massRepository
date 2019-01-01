@@ -40,7 +40,7 @@ public class SellerAuthorizeAspect {
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         HttpServletRequest request = attributes.getRequest();
 
-
+//查询相关的信息分享下测试
 
         //查询cookie
         Cookie cookie = CookieUtil.get(request, CookieConstant.TOKEN);
